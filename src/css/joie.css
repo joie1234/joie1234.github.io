@@ -260,9 +260,13 @@ div{
   }
 }
 @font-face {
-  src: url("uni.otf") format("opentype");
+  font-family: "ChollaSans";
   src: url("ChollaSansRegular.otf") format("opentype");
   src: url("ChollaSansBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Untitled1";
+  src: url("uni.otf") format("opentype");
 }
 
 @keyframes blink {
