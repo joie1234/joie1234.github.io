@@ -11,6 +11,7 @@ $(document).ready(function(){
   {
     $("#info").click(function() {
       $("#infoBox").toggle();
+      $("#contactBox").hide();
     });
     var container = $("#infoBox"); // YOUR CONTAINER SELECTOR
 
@@ -24,6 +25,7 @@ $(document).ready(function(){
   {
     $("#contact").click(function() {
       $("#contactBox").toggle();
+      $("#infoBox").hide();
     });
     var container = $("#contactBox"); // YOUR CONTAINER SELECTOR
 
