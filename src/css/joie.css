@@ -334,7 +334,6 @@ p{
   margin-left: 1.3%;
   margin-top: 0.1%;
   float: left;
-  animation: darkTextShadow 1.6s infinite;
   cursor: default;
 }
 #none {
@@ -348,7 +347,6 @@ p{
   margin-right: 0.2%;
   margin-top: 0.3%;
   font-weight: bold;
-  animation: darkTextShadow 1.6s infinite;
 }
 #infoBox{
   position: absolute;
@@ -399,6 +397,8 @@ p{
   z-index: 0;
   position: absolute;
   border: #1f5441 solid 2px;
+  -webkit-animation: imgShadow 1.6s infinite;
+  -o-animation: imgShadow 1.6s infinite;
   animation: imgShadow 1.6s infinite;
   opacity: 100;
 }
@@ -408,6 +408,8 @@ p{
   font-family: ChollaSans;
   font-weight: 400;
   font-size: 2rem;
+  -webkit-animation: textShadow 1.6s infinite;
+  -o-animation: textShadow 1.6s infinite;
   animation: textShadow 1.6s infinite;
   transform: translateY(-120%);
 }
@@ -439,6 +441,8 @@ p.cursor::after {
 .file h1{
   font-family: Untitled1;
   font-size: 65px;
+  -webkit-animation: textShadow 1.6s infinite;
+  -o-animation: textShadow 1.6s infinite;
   animation: textShadow 1.6s infinite;
   margin: 0;
   display: inline-block;
@@ -453,11 +457,15 @@ p.cursor::after {
   color: #a481f1;
   text-align: center;
   transform: translate(0, -50%);
+  -webkit-animation: smallTextShadow 1.6s infinite;
+  -o-animation: smallTextShadow 1.6s infinite;
   animation: smallTextShadow 1.6s infinite;
 }
 .drag {
   position: absolute;
   z-index: 100;
+  -webkit-animation: imgShadow 1.6s infinite;
+  -o-animation: imgShadow 1.6s infinite;
   animation: imgShadow 1.6s infinite;
   display: none;
   left: 25%;
@@ -479,6 +487,8 @@ p.cursor::after {
   font-size: 16px;
   color: #00008b;
   font-weight: bolder;
+  -webkit-animation: darkTextShadow 1.6s infinite;
+  -o-animation: darkTextShadow 1.6s infinite;
   animation: darkTextShadow 1.6s infinite;
 }
 .dragheader div{
@@ -487,6 +497,8 @@ p.cursor::after {
   margin-left: 1.4%;
 }
 .dragheader a{
+  -webkit-animation: darkTextShadow 1.6s infinite;
+  -o-animation: darkTextShadow 1.6s infinite;
   animation: darkTextShadow 1.6s infinite;
   font-family: Untitled1;
   color: #00008b;
@@ -502,7 +514,11 @@ p.cursor::after {
   border: #a481f1 3px solid;
   padding: 3%;
 }
-
+.window p{
+  -webkit-animation: smallTextShadow 1.6s infinite;
+  -o-animation: smallTextShadow 1.6s infinite;
+  animation: smallTextShadow 1.6s infinite;
+}
 .cursor{
   position: absolute;
   top: 0;
