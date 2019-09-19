@@ -10,8 +10,9 @@ $(document).ready(function(){
   $(document).mouseup(function (e)
   {
     $("#info").click(function() {
-      $("#infoBox").toggle();
       $("#contactBox").hide();
+      $("#infoBox").toggle();
+
     });
     var container = $("#infoBox"); // YOUR CONTAINER SELECTOR
 
@@ -24,8 +25,9 @@ $(document).ready(function(){
   $(document).mouseup(function (e)
   {
     $("#contact").click(function() {
-      $("#contactBox").toggle();
       $("#infoBox").hide();
+      $("#contactBox").toggle();
+
     });
     var container = $("#contactBox"); // YOUR CONTAINER SELECTOR
 
