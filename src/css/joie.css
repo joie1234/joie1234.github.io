@@ -259,6 +259,11 @@ div{
     box-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
   }
 }
+@font-face {
+  src: url("uni.otf") format("opentype");
+  src: url("ChollaSansRegular.otf") format("opentype");
+  src: url("ChollaSansBold.otf") format("opentype");
+}
 
 @keyframes blink {
   0% {
