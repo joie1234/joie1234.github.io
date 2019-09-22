@@ -945,6 +945,7 @@ p.cursor::after {
   }
   #windowTwo{
     min-width: 96vw;
+    height: 60vh;
   }
 
   #second{
@@ -962,7 +963,7 @@ p.cursor::after {
   }
   #windowThree{
     min-width: 98vw;
-    height: 500px;
+    height: 65vh;
   }
   #windowThree img{
     width: 50%;
