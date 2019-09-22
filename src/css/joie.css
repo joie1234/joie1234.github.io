@@ -638,6 +638,9 @@ p.cursor::after {
   #windowTwo {
     margin-right : -75px;
   }
+  #windowThree {
+    margin-right : -75px;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
