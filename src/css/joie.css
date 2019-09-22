@@ -576,6 +576,7 @@ p.cursor::after {
   width: 400px;
   height: 370px;
   overflow: scroll;
+  min-width: 0%;
 }
 #windowThree img{
   width: 50%;
@@ -594,7 +595,6 @@ p.cursor::after {
 #windowFour{
   width: 150px;
   height: 150px;
-  overflow: hidden;
   text-align: center;
 
 }
