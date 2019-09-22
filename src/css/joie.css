@@ -551,7 +551,13 @@ p.cursor::after {
   width: 350px;
   height: 500px;
   overflow: auto;
-  scroll-padding: 0;
+  scrollbar-face-color:#2fccad;
+  scrollbar-arrow-color:#2fccad;
+  scrollbar-track-color:transparent;
+  scrollbar-shadow-color:#2fccad;
+  scrollbar-highlight-color:#2fccad;
+  scrollbar-3dlight-color:#2fccad;
+  scrollbar-darkshadow-Color:#2fccad;
 }
 
 #windowTwo img{
