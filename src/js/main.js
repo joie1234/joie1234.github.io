@@ -25,22 +25,7 @@ $(document).ready(function(){
     $("#fourth").show();
   });
 
-  (function ($) {
-    $.fn.fixOverflow = function () {
-      if ($.browser.msie) {
-        return this.each(function () {
-          if (this.scrollWidth > this.offsetWidth) {
-            $(this).css({ 'padding-bottom' : '20px', 'overflow-y' : 'hidden' });
-          }
-        });
-      } else {
-        return this;
-      }
-    };
-  })(jQuery);
 
-// usage
-  $('pre').fixOverflow().doOtherPlugin();
 
   $(document).mouseup(function (e)
   {

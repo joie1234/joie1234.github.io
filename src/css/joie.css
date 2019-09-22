@@ -550,6 +550,7 @@ p.cursor::after {
   width: 350px;
   height: 500px;
   overflow: scroll;
+  scroll-padding: 0;
 }
 
 #windowTwo img{
@@ -604,8 +605,4 @@ p.cursor::after {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.window::-webkit-scrollbar-track{
-  border:1px gray solid;
-  border-radius:10px;
-  -webkit-box-shadow:0 0 6px gray inset;
-}
+
