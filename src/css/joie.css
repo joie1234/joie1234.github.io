@@ -593,7 +593,7 @@ p.cursor::after {
 #windowFour{
   width: 150px;
   height: 150px;
-  overflow: scroll;
+  overflow: hidden;
   text-align: center;
 
 }
@@ -603,4 +603,9 @@ p.cursor::after {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.window::-webkit-scrollbar-track{
+  border:1px gray solid;
+  border-radius:10px;
+  -webkit-box-shadow:0 0 6px gray inset;
 }
