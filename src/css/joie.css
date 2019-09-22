@@ -548,7 +548,7 @@ p.cursor::after {
   width: auto;
 }
 #windowTwo{
-  width: 350px;
+  max-width: 350px;
   height: 500px;
   overflow: auto;
   scrollbar-face-color:#2fccad;
@@ -558,7 +558,7 @@ p.cursor::after {
   scrollbar-highlight-color:#2fccad;
   scrollbar-3dlight-color:#2fccad;
   scrollbar-darkshadow-Color:#2fccad;
-  scroll-padding: 0;
+
 }
 
 #windowTwo img{
@@ -581,7 +581,7 @@ p.cursor::after {
   width: auto;
 }
 #windowThree{
-  width: 400px;
+  max-width: 400px;
   height: 370px;
   overflow: auto;
   scrollbar-face-color:#2fccad;
