@@ -857,6 +857,7 @@ p.cursor::after {
 }
 
 @media only screen and (max-width: 767px) {
+
   #earth h1 {
     font-size: 1.5rem;
   }
@@ -962,21 +963,20 @@ p.cursor::after {
     margin-bottom: 2%;
   }
   #windowThree{
-    min-width: 98vw;
-    height: 65vh;
+    min-width: 96vw;
+    max-width: 96vw;
+    padding-right: 10%;
   }
   #windowThree img{
     width: 50%;
   }
   #three{
-    margin: auto;
-    right: 3vw;
-    top: 10vw;
     -webkit-transform: translate(0%,0%);
     -moz-transform: translate(0%,0%);
     -ms-transform: translate(0%,0%);
     -o-transform: translate(0%,0%);
-    transform: translate(0%,0%);
+    transform: translate(-3%,10%);
+
   }
 
   #fourth{
@@ -986,6 +986,7 @@ p.cursor::after {
     -ms-transform: translate(0%,0%);
     -o-transform: translate(0%,0%);
     transform: translate(-60%,-50%);
+
   }
 
   #windowFour{
