@@ -476,11 +476,12 @@ p.cursor::after {
   animation: imgShadow 1.6s infinite;
   border: #a481f1 3px solid;
   background: #000051;
+  width: auto;
   display: none;
 }
 
 .dragheader {
-  width: 500px;
+  width: auto;
   height: 20px;
   background: #a481f1;
   z-index: 100;
@@ -544,12 +545,12 @@ p.cursor::after {
   transform: translate(250%, 15%);
 }
 #headerTwo{
-  width: 350px;
+  width: auto;
 }
 #windowTwo{
   width: 350px;
   height: 500px;
-  overflow: scroll;
+  overflow: auto;
   scroll-padding: 0;
 }
 
@@ -570,13 +571,12 @@ p.cursor::after {
   transform: translate(50%,70%);
 }
 #headerThree{
-  width: 400px;
+  width: auto;
 }
 #windowThree{
   width: 400px;
   height: 370px;
-  overflow: scroll;
-  min-width: 0%;
+  overflow: auto;
 }
 #windowThree img{
   width: 50%;
@@ -590,7 +590,7 @@ p.cursor::after {
   transform: translate(400%, 150%);
 }
 #headerFour{
-  width: 150px;
+  width: auto;
 }
 #windowFour{
   width: 150px;
