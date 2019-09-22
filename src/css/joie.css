@@ -558,6 +558,7 @@ p.cursor::after {
   scrollbar-highlight-color:#2fccad;
   scrollbar-3dlight-color:#2fccad;
   scrollbar-darkshadow-Color:#2fccad;
+  scroll-padding: 0;
 }
 
 #windowTwo img{
@@ -590,6 +591,7 @@ p.cursor::after {
   scrollbar-highlight-color:#2fccad;
   scrollbar-3dlight-color:#2fccad;
   scrollbar-darkshadow-Color:#2fccad;
+  scroll-padding: 0;
 }
 #windowThree img{
   width: 50%;
