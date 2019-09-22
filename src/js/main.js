@@ -6,6 +6,25 @@ $(document).ready(function(){
   $("#firstF").click(function() {
     $("#first").show();
   });
+  $("#secondX").click(function(){
+    $("#second").hide();
+  });
+  $("#secondF").click(function() {
+    $("#second").show();
+  });
+  $("#thirdX").click(function(){
+    $("#three").hide();
+  });
+  $("#thirdF").click(function() {
+    $("#three").show();
+  });
+  $("#fourthX").click(function(){
+    $("#fourth").hide();
+  });
+  $("#fourthF").click(function() {
+    $("#fourth").show();
+  });
+
 
   $(document).mouseup(function (e)
   {

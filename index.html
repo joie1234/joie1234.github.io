@@ -7,16 +7,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="/src/css/normalize.css">
   <link rel="stylesheet" href="/src/css/main.css">
   <link rel="stylesheet" href="/src/css/joie.css">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:500,600,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rakkas&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://use.typekit.net/rhq2auz.css">
   <meta name="theme-color" content="#fafafa">
+
 
 </head>
 <body>
@@ -43,14 +41,29 @@
     <img src="../ezgif.com-video-to-gif.gif"/>
   </div>
 
-  <div class="file" id="firstF">
-    <a href="#"><h1>D</h1></a>
-    <a href="#"><p>Introduction</p></a>
+  <div class="files">
+    <div class="file" id="firstF">
+      <a href="#"><h1>D</h1></a>
+      <a href="#"><p>Introduction</p></a>
+    </div>
+    <div class="file" id="secondF">
+      <a href="#"><h1>D</h1></a>
+      <a href="#"><p>Pre-story</p></a>
+    </div>
+    <div class="file" id="thirdF">
+      <a href="#"><h1>D</h1></a>
+      <a href="#"><p>Daily Routine</p></a>
+    </div>
+    <div class="file" id="fourthF">
+      <a href="#"><h1>D</h1></a>
+      <a href="#"><p>Mental Vault</p></a>
+    </div>
   </div>
+
   <div class="drag" id="first">
     <div class="dragheader"><p>Introduction</p><div ><a id="firstX" href="#">B</a></div> </div>
-    <div class="window">
-      <img id="rocket" src="/src/img/rocket.gif"/>
+    <div class="window" id="windowFirst">
+      <img src="/src/img/rocket.gif"/>
       <p class="cursor">
         Now the story you are about to hear starts before the other story ends;<br>
         If you want to know the whole story, sit tight and pay attention until the very end.
@@ -60,46 +73,118 @@
       </p>
     </div>
   </div>
+
+  <div class="drag" id="second">
+    <div class="dragheader" id="headerTwo">
+      <p>Pre-story</p><div><a id="secondX" href="#">B</a></div></div>
+      <div class="window" id="windowTwo">
+        <p>
+          It was a huge project for the planet earth.
+          Humanity's first attempt to actively reach out to outer-space<br><br>
+          : A 10year-mission to connect with other life forms and return to earth.
+          Many Astronauts were involved in this project and on this spaceship, our spaceman X was born.
+        </p>
+        <div class="smallImg"><img src="/src/img/baby.gif"/></div>
+        <p class="cursor">
+          However, as I said, our story started after this one ended.
+          Every astronaut was killed by an unfortunate incident leaving young X all alone.<br>
+          At that moment, our story begins.
+        </p>
+      </div>
+  </div>
+
+  <div class="drag" id="three">
+    <div class="dragheader" id="headerThree">
+      <p>Daily Routine</p><div><a id="thirdX" href="#">B</a></div></div>
+    <div class="window" id="windowThree">
+      <p>
+        Living alone, X doesn't have much diversity in his everyday life. Still, he has a daily routine to keep himself busy.<br><br>
+        First, washing up is important. It prevents him from catching a cold. Also, X quite enjoy the soap bubbles.
+      </p>
+      <div class="smallImg"><img src="/src/img/bubble.gif"/></div>
+      <p>
+        Next, X eats food. The ship has a container to grow some fruits and vegetables. There is a huge amount of dried pasta that
+        he can cook but it won't last forever.
+      </p>
+      <div class="smallImg"><img src="/src/img/tomato.gif"/></div>
+      <p>
+        When he has finished the necessary step, X usually spends time to observe Earth. He dreams about the people and the
+        "normal" life on the planet Earth. He calculates ways back to Earth with his computer but it not always successful.
+      </p>
+      <div class="smallImg"><img src="/src/img/calculate.gif"/></div>
+      <p>
+        After he has done working, X watches old movies and play solitaire. X loves to imitate the actors on screen. He memorizes all the words
+        perfectly. Solitaire may be a tedious game, but there are some shuffles that X struggles with.
+      </p>
+      <div class="smallImg"><img src="/src/img/film.gif"/> </div>
+      <p class="cursor">X usually fall asleep in front of the tv while watching a movie so he could dream about Earth.</p>
+    </div>
+  </div>
+
+  <div class="drag" id="fourth">
+    <div class="dragheader" id="headerFour">
+      <p>Mental Vault</p><div><a id="fourthX" href="#">B</a></div></div>
+    <div class="window" id="windowFour">
+      <p>
+        X is scared of the darkness<br>and dying alone.
+      </p>
+    </div>
+  </div>
 </div>
+
 </body>
 
-<script src="/src/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="/src/js/vendor/jquery-3.2.1.min.js"></script>
+<script src ="/src/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src ="/src/js/vendor/jquery-3.2.1.min.js"></script>
 <script src="/src/js/plugins.js"></script>
 <script src="/src/js/main.js"></script>
 <script>
-  (function (document) {
-    'use strict';
+  var offset = 5;
+  var mydivs = document.getElementsByClassName("drag");
+  for (var i = 0; i < mydivs.length; i++) {
+    dragElement(mydivs[i]);
+    mydivs[i].style.left = offset + "px";
+    offset = offset + mydivs[i].offsetWidth + 5;
+  }
 
-    var draggable = document.getElementsByClassName('drag'),
-      draggableCount = draggable.length, // cache the length
-      i;
-
-    function startDrag(evt) {
-
-      var diffX = evt.clientX - this.offsetLeft,
-        diffY = evt.clientY - this.offsetTop,
-        that = this;
-
-      function moveAlong(evt) {
-        that.style.left = (evt.clientX - diffX) + 'px';
-        that.style.top = (evt.clientY - diffY) + 'px';
-      }
-
-      function stopDrag() {
-        document.removeEventListener('mousemove', moveAlong);
-        document.removeEventListener('mouseup', stopDrag);
-      }
-
-      document.addEventListener('mouseup', stopDrag);
-      document.addEventListener('mousemove', moveAlong);
+  function dragElement(elmnt) {
+    var pos1 = 0,
+      pos2 = 0,
+      pos3 = 0,
+      pos4 = 0;
+    if (elmnt.getElementsByClassName("dragheader")[0]) {
+      elmnt.getElementsByClassName(
+        "dragheader"
+      )[0].onmousedown = dragMouseDown;
+    } else {
+      elmnt.onmousedown = dragMouseDown;
     }
 
-
-    for (i = 0; i < draggableCount; i += 1) {
-      draggable[i].addEventListener('mousedown', startDrag);
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      document.onmousemove = elementDrag;
     }
-  }(document));
+
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      elmnt.style.top = elmnt.offsetTop - pos2 + "px";
+      elmnt.style.left = elmnt.offsetLeft - pos1 + "px";
+    }
+
+    function closeDragElement() {
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
 </script>
 
 
@@ -108,6 +193,5 @@
   window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
   ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 
 </html>
