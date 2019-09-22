@@ -583,6 +583,13 @@ p.cursor::after {
   width: 400px;
   height: 370px;
   overflow: auto;
+  scrollbar-face-color:#2fccad;
+  scrollbar-arrow-color:#2fccad;
+  scrollbar-track-color:transparent;
+  scrollbar-shadow-color:#2fccad;
+  scrollbar-highlight-color:#2fccad;
+  scrollbar-3dlight-color:#2fccad;
+  scrollbar-darkshadow-Color:#2fccad;
 }
 #windowThree img{
   width: 50%;
