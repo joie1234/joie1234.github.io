@@ -294,7 +294,6 @@ body {
   margin: 0;
   padding: 0;
   color: #2fccad;
-
 }
 img{
   display: block;
@@ -859,6 +858,8 @@ p.cursor::after {
 @media only screen and (max-width: 767px) {
   body{
     max-height: 100vh;
+    min-height: 100%;
+    overflow: hidden;
   }
   #earth h1 {
     font-size: 1.5rem;
