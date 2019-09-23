@@ -932,61 +932,51 @@ p.cursor::after {
     font-size: 16px;
   }
   .window {
-    width: 96vw;
+    width: 90vw;
   }
 
   #first{
-    top: 50vw;
-    margin: auto;
-    -webkit-transform: translate(0%, 0);
-    -moz-transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
-    -o-transform: translate(0%, 0%);
-
+    -webkit-transform: translate(3%, 30%);
+    -moz-transform: translate(3%, 30%);
+    -ms-transform: translate(3%, 30%);
+    -o-transform: translate(3%, 30%);
+    transform: translate(3%, 30%);
   }
   #windowTwo{
-    min-width: 96vw;
-    height: 60vh;
+    min-width: 90vw;
+    height: 55vh;
   }
 
   #second{
-    margin: auto;
-    right: 2vw;
-    top: 10vw;
-    -webkit-transform: translate(0%, 0);
-    -moz-transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
-    -o-transform: translate(0%, 0%);
+    -webkit-transform: translate(2%, 20%);
+    -moz-transform: translate(2%, 20%);
+    -ms-transform: translate(2%, 20%);
+    -o-transform: translate(2%, 20%);
+    transform: translate(2%, 20%);
+
   }
 
-  .smallImg{
-    margin-bottom: 2%;
-  }
   #windowThree{
-    min-width: 96vw;
-    max-width: 96vw;
-    padding-right: 10%;
+    min-width: 90vw;
+    max-width: 90vw;
   }
   #windowThree img{
     width: 50%;
   }
   #three{
-    -webkit-transform: translate(0%,0%);
-    -moz-transform: translate(0%,0%);
-    -ms-transform: translate(0%,0%);
-    -o-transform: translate(0%,0%);
-    transform: translate(-3%,10%);
-
+    -webkit-transform: translate(0%, 20%);
+    -moz-transform: translate(0%, 20%);
+    -ms-transform: translate(0%, 20%);
+    -o-transform: translate(0%, 20%);
+    transform: translate(0%, 20%);
   }
 
   #fourth{
-    margin: 50vh 50vw;
-    -webkit-transform: translate(0%,0%);
-    -moz-transform: translate(0%,0%);
-    -ms-transform: translate(0%,0%);
-    -o-transform: translate(0%,0%);
-    transform: translate(-60%,-50%);
-
+    -webkit-transform: translate(70%, 100%);
+    -moz-transform: translate(70%, 100%);
+    -ms-transform: translate(70%, 100%);
+    -o-transform: translate(70%, 100%);
+    transform: translate(70%, 100%);
   }
 
   #windowFour{
