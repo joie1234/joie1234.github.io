@@ -857,7 +857,9 @@ p.cursor::after {
 }
 
 @media only screen and (max-width: 767px) {
-
+  body{
+    max-height: 100vh;
+  }
   #earth h1 {
     font-size: 1.5rem;
   }
@@ -943,6 +945,7 @@ p.cursor::after {
     transform: translate(3%, 30%);
   }
   #windowTwo{
+    max-width: 90vw;
     min-width: 90vw;
     height: 55vh;
   }
@@ -960,9 +963,7 @@ p.cursor::after {
     min-width: 90vw;
     max-width: 90vw;
   }
-  #windowThree img{
-    width: 50%;
-  }
+
   #three{
     -webkit-transform: translate(0%, 20%);
     -moz-transform: translate(0%, 20%);
