@@ -870,11 +870,11 @@ p.cursor::after {
   #earth{
     width: 60%;
     height: auto;
-
+    top: 40%;
   }
   .files{
     right: 0;
-    bottom: 15%;
+    bottom: 20%;
     text-align: center;
     position: absolute;
     width: 100%;
