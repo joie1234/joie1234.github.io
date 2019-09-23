@@ -860,7 +860,10 @@ p.cursor::after {
     max-height: 100vh;
     min-height: 100%;
     overflow: hidden;
+    position: fixed;
   }
+
+
   #earth h1 {
     font-size: 1.5rem;
   }
