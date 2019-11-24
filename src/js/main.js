@@ -24,6 +24,18 @@ $(document).ready(function(){
   $("#fourthF").click(function() {
     $("#fourth").show();
   });
+  $("#fifthX").click(function() {
+    $("#fifth").hide();
+  });
+  $("#fifthF").click(function() {
+    $("#fifth").show();
+  });
+  $("#sixthX").click(function() {
+    $("#sixth").hide();
+  });
+  $("#sixthF").click(function() {
+    $("#sixth").show();
+  });
 
   $(function() {
     var boxes = $(".drag");
@@ -78,6 +90,7 @@ $(document).ready(function(){
       container.hide();
     }
   });
+
 
 
 });
