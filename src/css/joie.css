@@ -1002,10 +1002,11 @@ p.cursor::after {
   }
   #earth{
     height: 60vh;
+    transform: translateY(-55%);
   }
   .files{
     right: 0;
-    top: 62%;
+    top: 60%;
     text-align: center;
     position: absolute;
     width: 100%;
