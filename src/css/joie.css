@@ -1014,6 +1014,7 @@ p.cursor::after {
     display: inline-block;
     width: 70px;
     margin-right: 7px;
+    margin-bottom: 0;
   }
 
   .file h1 {
