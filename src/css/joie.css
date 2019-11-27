@@ -316,14 +316,16 @@ p::-moz-selection {
 .crt{
   width: 100%;
   min-height: 100vh;
+  position: relative;
 }
 
 #header{
   background: #2fccad;
+  position: fixed;
   height: 25px;
   width: 100%;
   top: 0;
-  position: fixed;
+  z-index: 10;
 }
 #header a{
   text-decoration: none;
@@ -387,23 +389,26 @@ p::-moz-selection {
   color: #af8cff;
 }
 #earth{
-  width: 30%;
-  height: auto;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  z-index: 0;
+  width: 100vw;
+  height: 80vh;
   position: absolute;
-  border: #1f5441 solid 2px;
-  -webkit-animation: imgShadow 1.6s infinite;
-  -o-animation: imgShadow 1.6s infinite;
-  animation: imgShadow 1.6s infinite;
+  z-index: 0;
   opacity: 100;
+  background-color: #000055;
+  top: 50%;
+  transform: translateY(-50%);
 }
+#earth img{
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
 #earth h1{
   position: absolute;
   z-index: 10;
@@ -414,6 +419,7 @@ p::-moz-selection {
   animation: textShadow 1.6s infinite;
   transform: translateY(-120%);
   cursor: default;
+  left: 15%;
 }
 
 .cursor::after {
@@ -774,13 +780,8 @@ p.cursor::after {
   #earth h1 {
     font-size: 1.6rem;
     transform: translateY(-130%);
-
   }
-  #earth{
-    width: 40%;
-    height: auto;
 
-  }
   .files{
     right: 2%;
     top: 7%;
@@ -917,6 +918,16 @@ p.cursor::after {
 
 @media only screen and (max-width: 960px) {
 
+  #earth{
+    height: 80vh;
+  }
+  #earth img{
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+    display: inline-block;
+  }
+
   .window {
     width: 310px;
     height: 230px;
@@ -990,9 +1001,7 @@ p.cursor::after {
     font-size: 1.5rem;
   }
   #earth{
-    width: 60%;
-    height: auto;
-    top: 40%;
+    height: 60vh;
   }
   .files{
     right: 0;
@@ -1004,7 +1013,7 @@ p.cursor::after {
   .file {
     display: inline-block;
     width: 70px;
-    margin-right: 10px;
+    margin-right: 7px;
   }
 
   .file h1 {
