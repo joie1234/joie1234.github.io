@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black
+}
+* {
+    font-size: 1.9vh;
+    font-family: neue-haas-unica, 'Noto Sans KR', sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    word-break: keep-all;
+    line-height: 1.45;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    /*font-size: 2.8vh;*/
+    letter-spacing: -0.05vh;
+    text-transform: capitalize;
+    padding-bottom: 1vh;
+}
+.maintitle{
+    position: absolute;
+    top: 1.9vh; 
+    left: 1.9vh;
+    width: 100vw;
+
+    z-index: 10000;
+}
+.cover_wrapper{
+    width: 100vw;
+    position: fixed;
+    z-index: 1
+}
+.cover{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.cover_1{
+    background-image: url(img/bg_1.jpg);
+    top: 000vh;
+}
+.cover_2{
+    background-image: url(img/bg_2.jpg);
+    top: 0vh;
+}
+.cover_3{
+    background-image: url(img/bg_3.jpg);
+    top: 0vh;
+}
+.cover_4{
+    background-image: url(img/bg_4.jpg);
+    top: 0vh;
+}
+.cover_5{
+    background-image: url(img/bg_5.jpg);
+    top: 0vh;
+}
+.content_wrapper{
+    position: relative;
+    padding-top: 100vh;
+    z-index: 100;
+}
+.content{
+    background-color: black;
+    padding-right: 10vw;
+    /*padding-left: 10vw;*/
+}
+.english{
+    /*padding-right: 20vw;*/
+    padding-bottom: 2.5vw;
+    padding-top: 2.5vw
+}
+.korean{
+    /*padding-left: 20vw;*/
+    padding-bottom: 2.5vw;
+    padding-top: 2.5vw;
+    font-size: 1.7vh;
+    line-height: 1.8;
+}
+
+#logo-bm{
+    width: 100% !important;
+    height: 50vh !important;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 1000000;
+    background-color: black;
+    /*filter: invert(1);*/
+    right: 0;
+}
+
+.online_button{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    height: 70vh;
+    padding: 1vh;
+}
+.title{
+    width: auto;
+    display: block;
+    color: black;
+    /* left: 50%; */
+    z-index: 100000;
+    font-size: 10vh;
+    line-height: 1;
+    position: absolute;
+    /*color: white;*/
+}
+.poster{
+    height: calc(100% - 2vh);
+    position: absolute;
+    right: 10vw;
+}
+.tour_button .title{
+}
+.tour_button{
+    height: 10vh;
+    border-radius: 0.5vh;
+    background-color:  black
+}
+.animation_bg{
+    background-image: url('img/poster.gif');
+    position: absolute;
+    width: 41%;
+    height: 100%;
+    background-size: contain;
+    right: 0;
+}
+.animation{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -2vh;
+    filter: invert(1);
+
+    opacity: 0.5
+
+}
