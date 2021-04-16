@@ -512,21 +512,8 @@ body {
     padding-bottom: 5vh;
     display: none;
 }
-.artist{
-    width: 30vw;
-    min-height: 10vh;
-    background-color: black;
-    border: white solid 1px;
-    position: absolute;
-    z-index: 100;
-    color: white;
-    padding: 10px;
-    visibility: hidden;
 
-}
-.artistHover:hover .artist{
-    visibility: visible; !important;
-}
+
 a{
     text-decoration: none;
 }
