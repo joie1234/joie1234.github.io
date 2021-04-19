@@ -22,7 +22,8 @@ body {
     width: 100vw;
     z-index: 1;
     position: absolute;
-    height: 100vh
+    height: 100vh;
+    background-color: white
 }
 .cover{
     width: 100vw;
@@ -75,13 +76,19 @@ body {
     top: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(logo/fs-01.png);
+    /*background-image: url(logo/fs-01.png);*/
     background-size: auto 90vh;
     background-repeat: no-repeat;
     background-position: center 8.5vh;
     z-index: 100;
     pointer-events: none;
 }
+#whole_logo svg{
+    width: 100%;
+    height: 90% !important;
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: 6% !important;}
 .logo_v {
     position: absolute;
     z-index: 10000;
@@ -512,8 +519,27 @@ body {
     padding-bottom: 5vh;
     display: none;
 }
-
-
+.program_popup{
+    padding: 1vh;
+    border: 1px solid white;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.25s;
+    background-color: black
+}
+.content_2>.two_column>span{
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+.content_2>.two_column>span:hover{
+    z-index: 100000
+}
+.content_2>.two_column>span:hover .program_popup{
+    opacity: 1
+}
 a{
     text-decoration: none;
 }
