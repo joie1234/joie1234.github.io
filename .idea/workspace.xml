@@ -19,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="499" column="95" lean-forward="false" selection-start-line="499" selection-start-column="95" selection-end-line="499" selection-end-column="95" />
+            <state relative-caret-position="744">
+              <caret line="563" column="86" lean-forward="false" selection-start-line="563" selection-start-column="86" selection-end-line="563" selection-end-column="86" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,12 +147,12 @@
       <workItem from="1618815211976" duration="4153000" />
       <workItem from="1618827255589" duration="769000" />
       <workItem from="1618828433546" duration="135000" />
-      <workItem from="1618877321918" duration="3387000" />
+      <workItem from="1618877321918" duration="3820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28699000" />
+    <option name="totallyTimeSpent" value="29132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="25" width="1545" height="945" extended-state="0" />
@@ -484,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="499" column="95" lean-forward="false" selection-start-line="499" selection-start-column="95" selection-end-line="499" selection-end-column="95" />
+        <state relative-caret-position="744">
+          <caret line="563" column="86" lean-forward="false" selection-start-line="563" selection-start-column="86" selection-end-line="563" selection-end-column="86" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
