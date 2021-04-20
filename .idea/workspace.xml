@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c242fc89-c9b9-4344-bcef-25bd3f97e578" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/img/FS_logo1.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/FS_logo_short.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg_texture-02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/codeofconduct.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo.eps" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/m_1 2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/m_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/m_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/m_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/menu.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/poster.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/type-01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/logo/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/700_F_229159779_uNOcYWP4sq8czTBiS8mgkpj7oDoHiVbS_ST.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/FS_logo.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/fs-01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo/fs.svg" afterPath="" />
-    </list>
+    <list default="true" id="c242fc89-c9b9-4344-bcef-25bd3f97e578" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="1079" column="51" lean-forward="true" selection-start-line="1079" selection-start-column="51" selection-end-line="1079" selection-end-column="51" />
+            <state relative-caret-position="555">
+              <caret line="1152" column="0" lean-forward="true" selection-start-line="1152" selection-start-column="0" selection-end-line="1152" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -179,12 +145,12 @@
       <workItem from="1618815211976" duration="4153000" />
       <workItem from="1618827255589" duration="769000" />
       <workItem from="1618828433546" duration="135000" />
-      <workItem from="1618877321918" duration="658000" />
+      <workItem from="1618877321918" duration="910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25970000" />
+    <option name="totallyTimeSpent" value="26222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="25" width="1545" height="945" extended-state="0" />
@@ -516,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="1079" column="51" lean-forward="true" selection-start-line="1079" selection-start-column="51" selection-end-line="1079" selection-end-column="51" />
+        <state relative-caret-position="555">
+          <caret line="1152" column="0" lean-forward="true" selection-start-line="1152" selection-start-column="0" selection-end-line="1152" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
