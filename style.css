@@ -150,17 +150,17 @@ body {
 }
 
 .logo_1 {
-    width: 12vh;
+    width: 13vh;
     background-image: url(logo/1.png);
     margin-right: 5vh;
-    height: 6vh;
+    height: 6.5vh;
 }
 
 .logo_2 {
     background-image: url(logo/3.png);
     height: 9vh;
     margin-top: -2.28vh;
-    width: 13.5vh;
+    width: 14vh;
     margin-right: 3vh;
 }
 
