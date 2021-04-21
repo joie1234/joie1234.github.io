@@ -58,7 +58,7 @@ if(isMobile){
 			window.innerHeight + $('.content_1').outerHeight(true) + $('.content_2').outerHeight(true) 
 		}, 500);
 	})
-	$('.main_button_2, .button_3').click(function(){
+	$('.main_button_2').click(function(){
 		$('html, body').animate({ scrollTop: 
 			window.innerHeight + $('.content_1').outerHeight(true) + $('.content_2').outerHeight(true) + $('.content_3').outerHeight(true)
 		}, 500);
